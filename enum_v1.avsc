@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "example",
+  "fields": [
+    {
+      "name": "enumfield",
+      "type": {
+        "type": "enum",
+        "name": "myEnum",
+        "symbols": ["ONE", "TWO"],
+        "default": "ONE"
+      }
+    }
+  ]
+}

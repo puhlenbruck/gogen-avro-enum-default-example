@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "example",
+  "namespace": "enum.v2",
+  "fields": [
+    {
+      "name": "enumfield",
+      "type": {
+        "type": "enum",
+        "name": "myEnum",
+        "namespace": "enum.v2",
+        "symbols": ["ONE", "TWO", "THREE"],
+        "default": "ONE"
+      }
+    }
+  ]
+}
